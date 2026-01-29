@@ -1,0 +1,26 @@
+{
+  "title": "Teaching Flappy Bird",
+  "description": "Educational game: Learn physics via jumps and obstacles!",
+  "bird": {
+    "x": 100,
+    "y": 300,
+    "velocity": 0,
+    "gravity": 0.5,
+    "jump": -8,
+    "size": 30
+  },
+  "pipes": [
+    {"x": 400, "topHeight": 200, "gap": 150, "speed": 3},
+    {"x": 600, "topHeight": 250, "gap": 150, "speed": 3},
+    {"x": 800, "topHeight": 180, "gap": 150, "speed": 3}
+  ],
+  "ground": {"y": 500, "speed": 3},
+  "score": 0,
+  "highscore": 0,
+  "levels": {
+    "easy": {"speed": 2, "gap": 200},
+    "medium": {"speed": 4, "gap": 150},
+    "hard": {"speed": 6, "gap": 100}
+  },
+  "instructions": "Space to jump! Avoid pipes to score. Teaches gravity and timing."
+}
